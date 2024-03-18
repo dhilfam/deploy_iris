@@ -48,7 +48,7 @@ else:
             return features
 
 input_df = user_input_features()
-img = Image.open("iris.JPG")
+img = Image.open("iris.jpg")
 st.image(img, width=500)
 
 if st.sidebar.button('Predict!'):
